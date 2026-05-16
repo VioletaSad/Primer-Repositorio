@@ -6,6 +6,7 @@
     </head>
     <body>
 
+        <header>
                 <nav>
     <a href="index.html">Inicio</a>
     <br>
@@ -13,7 +14,8 @@
     <br>
     <a href="El_espectador_como_protagonista">Interacción con el público</a>
 </nav>
-
+        </header>
+        
         <section>
             <article>
         <h1>El espectador como protagonista</h1>
