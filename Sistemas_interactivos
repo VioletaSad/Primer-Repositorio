@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>"Tecnología en tiempo real"</title>
+        <title>Tecnología en tiempo real</title>
     </head>
     <body>
         <h1>Sistemas interactivos y tecnología en tiempo real</h1>
@@ -10,16 +10,15 @@
         <img src="lozano-hemmer-4.jpg" alt="Obra de Lozano">
         <p>Estas obras funcionan en tiempo real, generando una relación directa entre acción y resultado. El público no solo observa, sino que influye activamente en el comportamiento de la obra, creando experiencias personalizadas y colectivas al mismo tiempo.</p>
         <h2>Obras y conceptos clave</h2>
-        <il>
-            <ul>
-                Pulse Room
-Vectorial Elevation
-33 Questions per Minute
-Body Movies
-Interactividad
-Arte en espacio público
-            </ul>
-        </il>
+        <ul>
+            <li> Pulse Room </li>
+<li>Vectorial Elevation</li>
+<li>33 Questions per Minute</li>
+<li>Body Movies</li>
+<li>Interactividad</li>
+<li>Arte en espacio público</li>
+        </ul>
+        <a href="https://www.youtube.com/watch?v=jTzojcaanDs"> Rafael Lozano-Hemmer. Latidos - Recorrido Exposición</a>
          <footer>Para contactarse escribir a <a href="mailto:rafael@artedigital.com">rafael@artedigital.com</a></footer>
     </body>
 </html>
