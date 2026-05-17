@@ -47,6 +47,7 @@ border: 0.3rem solid rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
     border-radius: 10%;
      box-shadow: 0.3rem 0.3rem 1rem black;
+     padding: 1rem 1rem;
 }
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -106,4 +107,27 @@ ul {
     border: 0.3rem solid white;
 
     box-shadow: 0.3rem 0.3rem 1rem black;
+}
+
+footer {
+    background-color: rgb(209, 236, 255);
+
+    padding: 1.5rem;
+
+    margin-top: 2rem;
+
+    text-align: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    box-shadow: 0.3rem 0.3rem 1rem black;
+}
+
+footer a {
+    color: midnightblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(221, 121, 38)
 }
