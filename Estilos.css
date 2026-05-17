@@ -33,6 +33,7 @@ nav a {
   color: midnightblue;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 text-align: center; 
+transition: 0.3s;
 }
 
 .primera {
@@ -152,4 +153,9 @@ nav a:hover {
     height: 100%;
     border: 0;
     border-radius: 0.5rem;
+}
+
+.foto4, .foto3, .primera {
+    max-width: 100%;
+    height: auto;
 }
