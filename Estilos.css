@@ -5,11 +5,18 @@ body {
 h1 {
   font-family: 'Barlow', sans-serif;
   text-align: center;
+  color: #ffffff;
+    border: 0.5rem solid rgb(25, 20, 70);
+     -webkit-text-stroke: 0.1rem rgba(29, 43, 122, 0.473);
+      box-shadow: 0.3rem 0.3rem 1rem black;
+      background-color: rgb(255, 255, 255);
 }
 
+
 header {
-background-color: aliceblue;
+background-color: rgb(209, 236, 255);
 padding: 2rem 1rem;
+ box-shadow: 0.3rem 0.3rem 1rem black;
 }
 
 nav {
@@ -30,4 +37,14 @@ text-align: center;
   display: block;
   border-radius: 10%;
   margin: 1rem auto;
+      box-shadow: 0.3rem 0.3rem 1rem black;
+border: 0.3rem solid rgb(255, 255, 255);
+}
+
+.epigrafe {
+     text-align: center;
+  color: #000000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+     box-shadow: 0.3rem 0.3rem 1rem black;
 }
