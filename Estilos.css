@@ -4,8 +4,30 @@ body {
 
 h1 {
   font-family: 'Barlow', sans-serif;
+  text-align: center;
 }
 
 header {
 background-color: aliceblue;
+padding: 2rem 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: midnightblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+text-align: center; 
+}
+
+.primera {
+  width: 45%;
+  display: block;
+  border-radius: 10%;
+  margin: 1rem auto;
 }
