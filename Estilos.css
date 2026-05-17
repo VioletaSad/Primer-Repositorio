@@ -1,5 +1,7 @@
 body { 
      background-image: url(fondo.png);
+     margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -20,9 +22,10 @@ padding: 2rem 1rem;
 }
 
 nav {
-  display: flex;
-  gap: 10rem;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -85,7 +88,7 @@ ul {
     justify-content: center;
  }
 
- .foto4{
+ .foto4, .foto3 {
     width: 35%;
     display: block;
 
@@ -97,17 +100,6 @@ ul {
     box-shadow: 0.3rem 0.3rem 1rem black;
 }
 
-.foto3{
-    width: 35%;
-    display: block;
-
-    margin: 2rem auto;
-
-    border-radius: 1rem;
-    border: 0.3rem solid white;
-
-    box-shadow: 0.3rem 0.3rem 1rem black;
-}
 
 footer {
     background-color: rgb(209, 236, 255);
@@ -130,4 +122,34 @@ footer a {
 
 nav a:hover {
     color: rgb(221, 121, 38)
+}
+
+
+.columnas {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.columnas article {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 0.5rem;
 }
